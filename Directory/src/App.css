@@ -1,0 +1,58 @@
+.container {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tabs div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .tabs div.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
